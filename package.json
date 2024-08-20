@@ -1,0 +1,44 @@
+{
+	"name": "TatsuBot",
+	"version": "0.9",
+	"description": "A Discord bot that does everything. Based off BrussellBot by Brussell98",
+	"author": "FZFalzar, David, brussell98",
+	"main": "BrussellBot.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidlimjh/TatsuBot"
+	},
+	"bugs": {
+		"url": "https://github.com/davidlimjh/TatsuBot/issues"
+	},
+	"engines": {
+		"node": ">=5.7.0"
+	},
+	"scripts": {
+		"start": "node BrussellBot.js --harmony"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "hydrabolt/discord.js#indev",
+		"request": "*",
+		"xml2js": "*",
+		"cleverbot-node": "*",
+		"osu-api": "*",
+		"chalk": "*",
+		"entities": ">=1.1.1",
+		"winston": ">=2.2.0",
+		"sax": ">=1.2.1",
+		"readable-stream": ">=2.0.5",
+		"node-array-indexofobject": "danmactough/node-array-indexofobject#master",
+		"addressparser": ">=1.0.1",
+		"cheerio": "*",
+		"mysql": "*",
+		"moment": "*",
+		"thenby": "*",
+		"async": "*",
+		"yargs": "*",
+		"statman-stopwatch": "*",
+		"jp-conversion": "*",
+		"feedparser": ">=1.1.4"
+	}
+}
